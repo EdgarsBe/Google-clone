@@ -1,14 +1,47 @@
 <html>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         .center-img {
-  position: relative;
+  position:absolute;
   margin-left: auto;
   margin-right: auto;
-  width: 28%;
-  left: 450px;
-  top: 75px; }
+  width: 22%;
+  left: 500px;
+  top: 90px; }
+  .src{top: 205px;
+       left: 320px;
+       position: relative;
+       color:rgb(184, 181, 181)}
+  .round {
+    width: 45%;
+    height: 7%;
+    border-radius: 25px;
+    border: 1px rgb(212, 211, 211) solid;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    top: 210px;
+    left: 350px;
+}
+    .srcbutton{width: 10%;
+             height: 6%;
+             top: 280px;
+             left: 480px;    
+             display:inline-block;
+             position: relative;
+             border-radius: 5px;
+             border: 1px rgb(212, 211, 211) solid}
+    .lang{top: 320px;
+          left: 500px;
+          display: inline-block;}
     </style>   
-<body>
-<img class="center-img" src="googlelogo_color_160x56dp.png" alt='Google image'>
+  <body>
+   <img class="img-responsive center-img" src="googlelogo_color_160x56dp.png" alt='Google image'>
+   <form>
+      <i class="src fa fa-search"></i>
+     <input type="text" class="round">
+     <input type="button" value="Google search" class="srcbutton">
+     <input type="button" value="I'm Feeling Lucky" class="srcbutton">
+</form>
 </body>
+<p class="lang">Google offered in: <a href=#>latviešu</a> <a href=#>lietuvių</a><a herf=#> russian</a></p>
 </html>
