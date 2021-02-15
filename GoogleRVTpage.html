@@ -1,51 +1,135 @@
 <html>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        .img-goggle{width: 8%;
+        html{font-size: 0.8vw !important;
+             font-family: sans-serif !important;}
+        .img-goggle{width: 5%;
                     position: absolute;
-                    top: 33px;
-                    left: 20px;}
-        .round{width: 55%;
-               height: 7%;
+                    top: 3.5%;
+                    left: 1%;}
+        .round{width: 36%;
+               height: 4%;
                border-radius: 25px;
-               border: 1px rgb(212, 211, 211) solid;
+               border: 0.05vw rgb(212, 211, 211) solid;
                padding: 5px 5px 5px 25px;
                position: absolute;
-               left: 150px;
-               top: 30px;}
+               left: 8%;
+               top: 3%;}
         .enter{background-color: rgb(22, 100, 245);
                color: white;
                border-radius: 5px;
                position: absolute;
-               right: 20px;
-               top: 33px;
-               width: 8%;
-               height: 6%;}
+               right: 1%;
+               top: 2.2%;
+               width: 5%;
+               height: 4%;}
         .apps{position: absolute;
-              right: 150px;
-              top: 32px;}
-        .src{position: relative;
+              width: 1%;
+              right: 7%;
+              top: 2.9%;}
+        .src{position: absolute;
              color:rgb(41, 148, 236); 
-             top: 34px;
-             left: 815px;}
-        .mic{position: relative;
+             top: 4%;
+             left: 42.5%;}
+        .mic{position: absolute;
              color:rgb(41, 148, 236);
-             top: 35px;
-             left: 760px;}
-         .x{position: relative;
-            color:rgb(155, 158, 160);
-            top: 34px;
-            left: 715px;}               
+             top: 4.17%;
+             left: 41%;}
+         .x{position: absolute;
+            color:rgb(155, 158, 160);  
+            top: 4%;
+            left: 39.5%;}
+        .bar{position: absolute;
+             top: 8%;
+             left: 9%;
+             font-family: sans-serif;
+             color: gray;}
+        .speed{color: gray;
+               border-top: 0.05vw rgb(199, 199, 199) solid;
+               width: 100%;
+               position: absolute;
+               top:12%;
+               left:0}        
+        .carc{position: absolute;
+              font-family: sans-serif;
+              font-size: 0.75vw;
+              left: 9%;
+              color: rgb(78, 78, 78);}
+        .link{position: absolute;
+              font-family: sans-serif;
+              font-size:1.2vw;
+              top: 22%;
+              left: 9%;}
+        .pages{width: 17%;
+               position: absolute;
+               top: 112%;
+               left: 18%;}       
     </style>   
     <header>
     <img class="img-goggle" src="googlelogo_color_160x56dp.png" alt='Google image'>
     <form>
         <input type="text" class="round">
+        <div style="font-size: 0.8vw;">
         <a href="#"><i class="src fa fa-search"></i></a>
         <a href="#"><i class="mic fa fa-microphone"></i></a>
         <a href="#"><i class="x fa fa-times"></i></a>
     </form>
     <a href="#"><img src="Apps.png" alt="apps"class="apps"></a>
-    <input type="button" value="Ieiet"class="enter">    
-    </header>   
+    <input type="button" value="Ieiet"class="enter">
+    <pre class="bar"><i class="fa fa-search"></i>  All   <i class="fa fa-image"></i>  Images   <i class="fa fa-map-marker"></i>  Maps   <i class="fa fa-newspaper-o"></i>  News   <i class="fa fa-youtube"></i>  Videos   <i class="fa fa-ellipsis-v"></i>  More   </pre>    
+    <pre style="position: absolute;top: 8.2%; left: 37%; color: gray;font-family: sans-serif;">Setting    Tools</pre>
+    </header>
+    <body>
+        <p class="speed"></p>
+        <p style="color: gray; top: 13%;left: 9%;position: absolute;">About 941,000 results (0.76 seconds) </p>
+        <pre class="carc" style="top: 18%;">https://www.rvt.lv  <i style="color: gray;" class="fa fa-sort-down"></i>  <a href="#">Translate this page</a></pre>
+        <label class="link"><a href="#">Rīgas Valsts tehnikums</a></label>
+        <p class="carc" style="top: 24%;">Raksti uz solveiga.keistere@<b>rvt.lv</b>, lai pieteiktu savu klasi vai skolu uz tiešsaistes karjeras<br>
+           nodarbību, lai iepazītu dzelzceļa profesijas vai piesakies uz ...</p>
+        <label class="link" style="left: 11%; top: 31%;font-size: 1vw;"><a href="#">Stundu saraksts</a></label>
+        <p class="carc" style="top: 32%;left: 11%;">Uzmanību! Sekojiet līdzi stundu<br> sarakstam. Mācību kabineti un ...</p>   
+        <label class="link" style="left: 27%; top: 31%;font-size: 1vw;"><a href="#">Profesijas</a></label>
+        <p class="carc" style="top: 32%;left: 27%;">Lokomotīvju saimniecības tehniķis.<br> Dzelzceļa transporta ...</p> 
+        <label class="link" style="left: 11%; top: 39%;font-size: 1vw;"><a href="#">Uzņemšana</a></label>
+        <p class="carc" style="top: 40%;left: 11%;">Šajā kategorijā nav rakstu. Ja šajā<br> lapā tiek rādītas ...</p> 
+        <label class="link" style="left: 27%; top: 39%;font-size: 1vw;"><a href="#">Par mums</a></label>
+        <p class="carc" style="top: 40%;left: 27%;">Vīzija – tehnikums ir Eiropas<br> prasībām atbilstoša ...</p> 
+        <label class="link" style="left: 11%; top: 47%;font-size: 1vw;"><a href="#">Kontakti</a></label>
+        <p class="carc" style="top: 48%;left: 11%;">Direktore Dagnija Vanaga Telefons<br> 67324146 dagnija ...</p> 
+        <label class="link" style="left: 27%; top: 47%;font-size: 1vw;"><a href="#">PIKC RVT e-studijas</a></label>
+        <p class="carc" style="top: 48%;left: 27%;">PIKC RVT e-studijas. Jūs neesat<br> pieslēdzies. (Pieslēgties ...</p> 
+        <p class="carc" style="top: 53%;left: 11%;"><a href="#">More results from rvt.lv »</a></p>
+        <pre class="carc" style="top: 59%;">https://www.rvt-riepas.lv  <i style="color: gray;" class="fa fa-sort-down"></i>  <a href="#">Translate this page</a></pre>
+        <label class="link" style="top: 63%;"><a href="#">RVT</a></label>
+        <p class="carc" style="top: 65%;">riepu centrs “<b>RVT</b>”. Ziepniekkalna iela 23a, Rīga, Latvija, <b>LV</b>-1004. +37129 273 705. Copyrights<br>
+             ® sia <b>RVT</b> 2021. Mājas lapas izstrāde Amparo Mājas lapas ...</p>
+        <pre class="carc" style="top: 72%;">https://pikcrvt.edupage.org › timetable  <i style="color: gray;" class="fa fa-sort-down"></i>  <a href="#">Translate this page</a></pre>
+        <label class="link" style="top: 76%;"><a href="#">Stundu saraksts | PIKC „Rīgas Valsts tehnikums”</a></label>
+        <p class="carc" style="top: 78%;">PIKC „Rīgas Valsts tehnikums”. dace.rozenblate@<b>rvt.lv</b>. (+371) 67325748. Kr. Valdemāra iela<br>
+             1c, Rīga. Pielielināt/ samazināt teksta izmēru + -. Powered by aSc ...</p>
+        <pre class="carc" style="top: 85%;">https://www.prakse.lv › edu › profile  <i style="color: gray;" class="fa fa-sort-down"></i>  <a href="#">Translate this page</a></pre>
+        <label class="link" style="top: 89%;"><a href="#">Rīgas Valsts tehnikums - Prakse.lv</a></label>
+        <p class="carc" style="top: 91%;"><b>RVT</b> realizē profesionālās vidējās izglītības programmas, kas dod iespēju iegūt trešo<br>
+        profesionālās kvalifikācijas līmeni, un papildus veic reģionālā vai nozares ...</p>
+        <pre class="carc" style="top: 98%;">https://www.facebook.com › rigasval...  <i style="color: gray;" class="fa fa-sort-down"></i>  <a href="#">Translate this page</a></pre>
+        <label class="link" style="top: 102%;"><a href="#">Rīgas Valsts tehnikums - Home | Facebook</a></label>
+        <p class="carc" style="top: 104%;"><b>rvt.lv.</b> Highlights info row image. Local Business. Highlights info row image. Impressum ...<br>
+        Videos. Uzņemšana PIKC RVT Krāslavas teritoriālajā struktūrvienībā.</p>
+        <img class="pages" src="Google_pages.png" alt="Google page switcher">
+    </body>
+    <footer>
+        <pre style="font-size: 0.8vw ;position: absolute;top: 115%;left: 20%; word-spacing: 0.15vw;">1 <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a> <a href="#">6</a> <a href="#">7</a> <a href="#">8</a> <a href="#">9</a> <a href="#">10</a></pre>
+        <div style="left: 0px;background-color: rgb(247, 235, 235);position:absolute; width: 9%; top: 125%;text-align: right;border: 0.05vw rgb(212, 212, 212) solid;">
+            <pre>Latvia </pre>
+        </div>
+        <div style="position:absolute; top: 125%; background-color: rgb(247, 235, 235); width: 91%; left: 9%;border: 0.05vw rgb(212, 212, 212) solid;">
+           <p><b>Riga</b> - From your Internet address - Use precise location - Learn more</p>
+        </div>
+        <div style="left: 0px;background-color: rgb(247, 235, 235);position:absolute; width: 9%; top: 130.4%;">
+            <pre>.</pre>
+        </div>
+        <div style="position:absolute; top: 130.4%; background-color: rgb(247, 235, 235); width: 91%; left: 9%; word-spacing: 1VW;">
+           <p>Help SendFeedback Privacy Terms</p>
+        </div>
+    </footer>          
 </html>
